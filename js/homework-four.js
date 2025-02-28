@@ -25,8 +25,8 @@ console.log(`The last letter in ${myFavoriteGameText} "${myFavoriteGameName}" is
 //  Перевірте, чи обидві змінні не є порожніми. 
 // Якщо обидва поля заповнені, вивести повідомлення "Обидва поля заповнені", якщо ні — "Не всі поля заповнені".
 
-let text1 = document.getElementById("text1");
-let text2 = document.getElementById("text2");
+let text1 = "текст";
+let text2 = "текст";
 
 if (text1 !== "" && text2 !== "") {
   console.log("Обидва поля заповнені");
@@ -75,9 +75,9 @@ if (number > 10 && number < 20) {
 // 5. Створіть змінні для зберігання значень полів (ім'я, email, пароль).
 //  Перевірте, чи ім'я містить не менше 3 символів, чи email містить символ @ та крапку після нього, а пароль не менше 6 символів.
 //  Якщо всі умови виконані — виведіть "Перенаправлення на іншу сторінку", якщо ні — "Помилка: неправильне заповнення".
-    let names = document.getElementById("names");
-    let email = document.getElementById("email");
-    let login = document.getElementById("login");
+    const names = "name";
+    const email = "name";
+    const login = "name";
   
     console.log("names:", names);
     console.log("email:", email);
