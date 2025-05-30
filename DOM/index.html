@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        div {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Button and text</h2>
+        <input type="text" id="myInput" value="New button text">
+        <button id="myButton">Оригінальний текст кнопки</button>
+    </div>
+    <div>
+        <h2>Text and image</h2>
+        <h3 id="imageTitle">This is text for image</h3>
+        <img id="myImage" src="./image.png" alt="Original Image">
+    </div>
+    <div>
+        <h2>Link and image with atribut "alt"</h2>
+        <a id="myLink" href="">Original link</a>
+        <img id="imageWithAlt" src="" alt="">
+    </div>
+    <div>
+        <h2>Elements list</h2>
+        <ul id="myList">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+    </div>
+    <script src="./dom.js"></script>
+</body>
+</html>
